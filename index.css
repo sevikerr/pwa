@@ -282,3 +282,11 @@ body {
   font-family: Roboto, Tahoma, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-size: 16px;
 }
+
+.box{
+  width:100px;
+  height:100px;
+  padding:10px;
+  background:lavender;
+  float:left;
+}
