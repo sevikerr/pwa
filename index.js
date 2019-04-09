@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('sw.js')
+    .register('/pwa/sw.js')
     .then(function () {
       console.log('Service Worker Registered');
     });
@@ -19,6 +19,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   addBtn.style.display = 'block';
 
   addBtn.addEventListener('click', (e) => {
+    alert("click");
     // hide our user interface that shows our A2HS button
     addBtn.style.display = 'none';
     // Show the prompt
