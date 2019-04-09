@@ -11,6 +11,5 @@
   ],
   "name": "PWA cats",
   "short_name": "Cats",
-  "start_url": "/pwa/index.html",
-  theme_color: "white"
+  "start_url": "/pwa/index.html"
 }
