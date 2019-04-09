@@ -1,0 +1,14 @@
+{
+  "background_color": "purple",
+  "description": "Some Pwa Description",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/cat.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "name": "PWA cats",
+  "short_name": "Cats",
+  "start_url": "index.html"
