@@ -7,6 +7,8 @@ self.addEventListener('install', function (e) {
         '/pwa/index.html',
         '/pwa/index.js',
         '/pwa/style.css',
+        '/pwa/icon/cat.png',
+        '/pwa/icon/bigger-cat.png',
       ]);
     })
   );
