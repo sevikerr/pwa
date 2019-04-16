@@ -14,11 +14,10 @@ self.addEventListener('install', function (e) {
   );
 });
 
-self.addEventListener('fetch', function (e) {
-  console.log(e.request.url);
-  e.respondWith(
-    caches.match(e.request).then(function (response) {
-      return response || fetch(e.request);
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    fetch(event.request).catch(function() {
+      return caches.match(event.request);
     })
   );
 });
