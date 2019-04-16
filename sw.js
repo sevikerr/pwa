@@ -1,7 +1,7 @@
 self.addEventListener('install', function (e) {
   console.log("install pwa");
   e.waitUntil(
-    caches.open('v1.0').then(function (cache) {
+    caches.open('v1.1').then(function (cache) {
       return cache.addAll([
         '/pwa/',
         '/pwa/index.html',
