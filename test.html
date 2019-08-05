@@ -13,6 +13,19 @@
     <script type="text/javascript">
       $(() => {
         console.log("ready");
+        $(".container").html("Wait 2");
+        setTimeout(function() {
+          $(".container").html("Wait 5000");
+        }, 5000);
+        setTimeout(function() {
+          $(".container").html("Wait 10000");
+        }, 10000);
+        setTimeout(function() {
+          $(".container").html("Wait 20000");
+        }, 20000);
+        setTimeout(function() {
+          $(".container").html("Wait 30000");
+        }, 30000);
       });
     </script>
   </body>
